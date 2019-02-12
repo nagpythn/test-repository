@@ -1,0 +1,13 @@
+Robot Framework is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD).
+
+(ATDD) is a development methodology based on communication between the business customers, the developers, and the testers
+
+//Example test case for login
+
+Valid Login
+    Open Browser To Login Page
+    Input Username    demo
+    Input Password    mode
+    Submit Credentials
+    Welcome Page Should Be Open
+    [Teardown]    Close Browser

@@ -1,0 +1,18 @@
+Logging
+
+Debugging :debugging code only you want t see not others want  to see
+
+Info: this is information that act as conformation 
+
+warking: some problem may happen in the future but software is still working as expected
+
+error
+
+critical : something happen that the problem will not be able to run
+
+logging.basicConfig(): this method which we can set the logging level to follow
+
+ 
+If we want to use class name as logger name then we have to create logger object as follows
+
+Ex:logger = logging.getLogger(LoggerDemoConsole.__name__)

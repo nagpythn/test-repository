@@ -1,0 +1,35 @@
+#Example of JSON(java script object notation) Record
+#JavaScript Object Notation Serializer. Purpose: Encode Python objects as JSON strings, and decode JSON strings into Python objects
+JSON
+{
+   "name":"nagababu"
+   "address":"btm layout"
+   "phone":"8500977959"
+}
+
+
+#Json module has 4 methods -->json.loads(),json.dumps(),json.load(),json.dump()
+
+
+json.dumps()-->convert the dictionary to a string using json.dumps:
+	
+json.loads()-->convert a string to dictionary datatype
+
+json.load()-->convert a file to dictionary
+
+json.dump()-->convert a dictionary to file 
+
+
+import json
+str={"name":"nagababu","address":"btm layout","age":"27"}
+print(str)
+print(type(str))
+data=json.dumps(str)
+print(data)
+with open("C://Users//LENOVO//Desktop//Sriram Tech//Module//json.txt",'w') as s:
+    s.write(data)
+data1=json.loads(data)
+print(data1)
+
+
+

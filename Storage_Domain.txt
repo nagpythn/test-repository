@@ -1,0 +1,8 @@
+#Storage_Domain
+
+Raid-Redundant Array of independent Disk 
+
+Raid controller is a Hardware Device or Software program used to manage HDD or SDD in a Computer or Storage array so they work as a logical unit 
+
+controller offers a level between operating system and Physical Drivers
+

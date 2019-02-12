@@ -1,0 +1,75 @@
+#Re
+
+match()
+findall()
+search()
+sub(pattern, newstring, string)
+
+DOT(.)---any charecter in place of Dot this is called meta charecter
+
+^---represent starting of a string
+
+$---represent ending of a string
+ex:pattern = r"^gr.y$" ---starting with g and ending with y 
+
+[]---to specify the range ex:[A-Z] means from a to z
+
+EX: write Re for AA1
+
+pattern=r"[A-Z][A-Z][0-9]"
+
+STAR(*)-- allow zero or more repetations of particular string(eggs) or previous string
+
+EX eggs(bacon) in this zero or more repetations of becon shoud exist to satisfy 
+
+pattern = eggs(becon)
+
+string= "eggsbacon"  ==o/p :match found
+
+string= "eggsbaconbacon" =====o/p : match found
+
+string= "eggs" =====o/p : match found
+
+string= "bacon" =====o/p : match not found
+
+quantifiers === to specify the number of occurances to be match 
+a
+
+a*
+
+a+---------means atleast one a
+
+a?--------atmost one a , either one a or zero number of a
+
+{m}---exactly m number of a 's 
+
+\s ---space charecter
+
+\S---- Any charecter except space
+
+\d any digit from 0-9
+
+\D any charecter except digit
+
+\w any word charecter [a-zA-Z0-9]
+
+
+Ex:Telangana Registration number
+
+	TS07EA7777
+
+        TS[102][A-Z]{2}\d{4}
+          
+
+
+Ex : moblie Number
+
+       [7-9]\d{9}
+
+Ex:mailid
+
+    \w[]  
+
+
+
+\W any charecter except word charecter  
