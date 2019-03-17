@@ -1,0 +1,46 @@
+Open Code Folder --->Right click on folder and open Git Bash
+
+git credentials 
+
+email:nagpythn@gmail.com
+password:govind@1431
+
+1st Time)   git clone https://srirampythonhub@bitbucket.org/abhishek_katam/django_b1.git
+
+2nd Time)   git pull  https://srirampythonhub@bitbucket.org/abhishek_katam/django_b1.git
+
+
+MyGit URL
+
+https://github.com/nagpythn/test-repository.git
+
+
+1)git init
+
+2)git add * 
+
+3)git commit -m "new file created"
+
+4)git git config --user.name "nagpythn"
+
+5)git config --user.email "nagpythn@gmail.com"
+
+6)git log --to know crediantials of user
+
+
+7)git remote add origin https://github.com/nagpythn/test-repository.git ---to add remote mode 
+
+8)git push -u origin  Master https://github.com/nagpythn/test-repository.git    ///git push origin master --force
+
+------------------------
+
+project git
+
+1)git branch
+2)git checkout master ---to change to master
+3)git fetch --all
+4)git merge blessed/master 
+
+
+
+
